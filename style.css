@@ -4,12 +4,12 @@
     font-family: -apple-system, "LingWai SC";
 }
 
-body {
 
-}
 
-.site-header{
-    background: rgba(255,255,255,0.5);
+body {}
+
+.site-header {
+    background: rgba(255, 255, 255, 0.5);
     display: flex;
     padding: 60px 20px;
     position: fixed;
@@ -18,43 +18,51 @@ body {
     width: 100%;
 }
 
-.site-header.transform{
-    background: rgba(255,255,255,0.9);
+.site-header.transform {
+    background: rgba(255, 255, 255, 0.9);
     padding: 20px;
 }
 
-.gnav__menu{
+.gnav__menu {
     display: flex;
 }
-.gnav__menu__item{
+
+.gnav__menu__item {
     margin-left: 20px;
 }
-.gnav__menu__item a{
+
+.gnav__menu__item a {
     color: #333;
     text-decoration: none;
 }
 
 .top {
     background: 0 0 no-repeat;
-    background-image: url(top2.png);
+    background-image: url(top1000.png);
     width: 100%;
     height: 820px;
     background-size: cover;
     color: #707070;
 }
 
+
 .top h1 {
     font-size: 80px;
     padding-left: 470px;
     padding-top: 260px;
+}
 
+.top img {
+    padding-left: 599px;
+    padding-top: 183px;
+    width: 42%;
 }
 
 nav {
     overflow: hidden;
     padding-left: 900px;
     padding-top: 20px;
-    
+
 }
 
 nav li {
@@ -64,120 +72,132 @@ nav li {
     font-size: 25px;
 }
 
-nav li a{
+nav li a {
     text-decoration: none;
     z-index: 1;
     color: #707070;
 }
 
-.ag1{
-  position: relative;
-  z-index: 1;
-  cursor: pointer;
+.ag1 {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
 }
 
-.ag1::after{
-  content:"";
-  width: 0%;   
-  height: 8px;
-  background: #FFB7B7;
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  z-index: -1;
-  transition: all .3s;  /*アニメーションの長さ*/
-}	
-
-.ag1:hover::after{
-  width: 100%;    /*hover時に100%で広がる*/
+.ag1::after {
+    content: "";
+    width: 0%;
+    height: 8px;
+    background: #FFB7B7;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    z-index: -1;
+    transition: all .3s;
+    /*アニメーションの長さ*/
 }
 
-.top1{
-  position: relative;
-  z-index: 1;
-  cursor: pointer;
+.ag1:hover::after {
+    width: 55%;
+    /*hover時に100%で広がる*/
 }
 
-.top1::after{
-  content:"";
-  width: 0%;   
-  height: 8px;
-  background: #707070;
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  z-index: -1;
-  transition: all .3s;  /*アニメーションの長さ*/
-}	
-
-.top1:hover::after{
-  width: 100%;    /*hover時に100%で広がる*/
+.top1 {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
 }
 
-.fr1{
-  position: relative;
-  z-index: 1;
-  cursor: pointer;
+
+
+.top1::after {
+    content: "";
+    width: 0%;
+    height: 8px;
+    background: #707070;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    z-index: -1;
+    transition: all .3s;
+    /*アニメーションの長さ*/
 }
 
-.fr1::after{
-  content:"";
-  width: 0%;   
-  height: 8px;
-  background: #FFFEFA;
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  z-index: -1;
-  transition: all .3s;  /*アニメーションの長さ*/
-}	
-
-.fr1:hover::after{
-  width: 100%;    /*hover時に100%で広がる*/
+.top1:hover::after {
+    width: 45%;
+    /*hover時に100%で広がる*/
 }
 
-.hp1{
-  position: relative;
-  z-index: 1;
-  cursor: pointer;
+.fr1 {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
 }
 
-.hp1::after{
-  content:"";
-  width: 0%;   
-  height: 8px;
-  background: #FFF8A7;
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  z-index: -1;
-  transition: all .3s;  /*アニメーションの長さ*/
-}	
-
-.hp1:hover::after{
-  width: 100%;    /*hover時に100%で広がる*/
+.fr1::after {
+    content: "";
+    width: 0%;
+    height: 8px;
+    background: #FFFEFA;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    z-index: -1;
+    transition: all .3s;
+    /*アニメーションの長さ*/
 }
 
-.sd1{
-  position: relative;
-  z-index: 1;
-  cursor: pointer;
+.fr1:hover::after {
+    width: 55%;
+    /*hover時に100%で広がる*/
 }
 
-.sd1::after{
-  content:"";
-  width: 0%;   
-  height: 8px;
-  background: #AFE2CC;
-  position: absolute;
-  bottom: -4px;
-  left: 0;
-  z-index: -1;
-  transition: all .3s;  /*アニメーションの長さ*/
-}	
+.hp1 {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
 
-.sd1:hover::after{
-  width: 100%;    /*hover時に100%で広がる*/
+.hp1::after {
+    content: "";
+    width: 0%;
+    height: 8px;
+    background: #FFF8A7;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    z-index: -1;
+    transition: all .3s;
+    /*アニメーションの長さ*/
+}
+
+.hp1:hover::after {
+    width: 55%;
+    /*hover時に100%で広がる*/
+}
+
+.sd1 {
+    position: relative;
+    z-index: 1;
+    cursor: pointer;
+}
+
+.sd1::after {
+    content: "";
+    width: 0%;
+    height: 8px;
+    background: #AFE2CC;
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    z-index: -1;
+    transition: all .3s;
+    /*アニメーションの長さ*/
+}
+
+.sd1:hover::after {
+    width: 45%;
+    /*hover時に100%で広がる*/
 }
 
 
@@ -186,6 +206,9 @@ nav li a{
     width: 100%;
     height: 610px;
     color: #707070;
+    background-image: url(first10.PNG);
+    background-repeat: no-repeat;
+    background-position: 50px;
 }
 
 .first h1 {
@@ -207,31 +230,31 @@ nav li a{
     color: #707070;
 }
 
-.happy h1{
+.happy h1 {
     font-size: 40px;
     padding-left: 330px;
-    padding-top: 90px;    
+    padding-top: 90px;
 }
 
-.happy h2{
+.happy h2 {
     font-size: 25px;
     padding-left: 270px;
-    padding-top: 70px;    
+    padding-top: 70px;
 }
 
-.happy h3{
+.happy h3 {
     padding-top: 10px;
     font-size: 20px;
     padding-left: 270px;
 }
 
-.happy h4{
+.happy h4 {
     font-size: 25px;
     padding-left: 650px;
-    padding-top: 70px;    
+    padding-top: 70px;
 }
 
-.happy h5{
+.happy h5 {
     padding-top: 10px;
     font-size: 20px;
     padding-left: 650px;
@@ -244,82 +267,82 @@ nav li a{
     color: #707070;
 }
 
-.sad h1{
+.sad h1 {
     font-size: 40px;
     padding-left: 330px;
     padding-top: 90px;
 }
 
-.sad h2{
+.sad h2 {
     font-size: 25px;
     padding-left: 270px;
-    padding-top: 70px;    
+    padding-top: 70px;
 }
 
-.sad h3{
+.sad h3 {
     font-size: 20px;
     padding-left: 270px;
-    padding-top: 10px;    
+    padding-top: 10px;
 }
 
-.sad h4{
+.sad h4 {
     font-size: 25px;
     padding-left: 650px;
-    padding-top: 70px;  
+    padding-top: 70px;
 }
 
-.sad h5{
+.sad h5 {
     font-size: 20px;
     padding-left: 650px;
-    padding-top: 10px;    
+    padding-top: 10px;
 }
 
-.sad h6{
+.sad h6 {
     font-size: 25px;
     padding-left: 270px;
-    padding-top: 70px;  
+    padding-top: 70px;
 }
 
-.sad h7{
+.sad h7 {
     font-size: 20px;
     padding-left: 270px;
-    padding-top: 10px;    
+    padding-top: 10px;
 }
 
-.angry{
+.angry {
     background: #FFB7B7;
     width: 100%;
     height: 880px;
-    color: #707070; 
+    color: #707070;
 }
 
-.angry h1{
+.angry h1 {
     font-size: 40px;
     padding-left: 330px;
     padding-top: 90px;
 }
 
-.angry h2{
+.angry h2 {
     font-size: 25px;
     padding-left: 270px;
-    padding-top: 70px;    
+    padding-top: 70px;
 }
 
 
-.angry h3{
+.angry h3 {
     font-size: 20px;
     padding-left: 270px;
-    padding-top: 10px;    
+    padding-top: 10px;
 }
 
-.angry h4{
+.angry h4 {
     font-size: 25px;
     padding-left: 650px;
-    padding-top: 70px;  
+    padding-top: 70px;
 }
 
-.angry h5{
+.angry h5 {
     font-size: 20px;
     padding-left: 650px;
-    padding-top: 10px;    
+    padding-top: 10px;
 }
